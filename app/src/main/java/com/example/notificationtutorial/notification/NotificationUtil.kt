@@ -1,4 +1,4 @@
-package com.example.notificationtutorial
+package com.example.notificationtutorial.notification
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -7,8 +7,10 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.os.Build
-import androidx.annotation.StringRes
 import androidx.core.app.NotificationCompat
+import androidx.core.net.toUri
+import com.example.notificationtutorial.MainActivity
+import com.example.notificationtutorial.R
 
 fun sendNotification(context: Context, body: String, title: String) {
     val notificationManager =
@@ -39,6 +41,14 @@ private fun buildNotification(
     bigTextStyle.bigText(content)
 
     val intent = Intent(context, MainActivity::class.java)
+    val id = "exampleId"
+//    val deepLinkIntent = Intent(
+//        Intent.ACTION_VIEW,
+//        "https://www.example.com/$id".toUri(),
+//        context,
+//        MainActivity::class.java
+//    )
+
     val pendingIntent =
         PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_IMMUTABLE)
 

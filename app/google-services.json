@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "511237887424",
+    "project_id": "notificationtutorial-bac85",
+    "storage_bucket": "notificationtutorial-bac85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511237887424:android:52cc11d22a3bbb67f2e425",
+        "android_client_info": {
+          "package_name": "com.example.notificationtutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511237887424-20vllv0kred42jal7c35mo34hgsm4pov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhIlrICX5hJU_gFuxYmfbajzH_tYW8gFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511237887424-20vllv0kred42jal7c35mo34hgsm4pov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
