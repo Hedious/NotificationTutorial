@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.notificationtutorial"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.notificationtutorial"
@@ -72,4 +72,7 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:32.2.3"))
     implementation("com.google.firebase:firebase-analytics-ktx")
     implementation("com.google.firebase:firebase-messaging-ktx")
+
+    //Navigation
+    implementation("androidx.navigation:navigation-compose:2.7.2")
 }
